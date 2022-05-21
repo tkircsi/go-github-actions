@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  lint:
+  CI:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
